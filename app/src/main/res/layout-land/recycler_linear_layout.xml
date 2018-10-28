@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listItemContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background_drawable">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_layout_margin"
+        app:contentPadding="@dimen/card_content_padding"
+        app:cardElevation="@dimen/card_view_elevation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_list_land_max_height">
+
+            <ImageView
+                android:id="@+id/card_view_image"
+                android:layout_width="@dimen/image_land_max_width"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/laptop_image_placeholder_description"
+                android:scaleType="fitXY"
+                tools:src="@drawable/no_image_placeholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/card_view_image"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/card_view_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/googlesans_bold"
+                    android:padding="@dimen/small_layout_padding"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/big_title_size"
+                    tools:text="TITLE" />
+
+                <TextView
+                    android:id="@+id/card_view_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/googlesans_regular"
+                    android:lines="3"
+                    android:padding="@dimen/small_layout_padding"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/normal_text_size"
+                    tools:text="DESCRIPTION" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

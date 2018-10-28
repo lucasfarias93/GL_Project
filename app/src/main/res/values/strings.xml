@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laptop\'s Information</string>
+    <string name="laptop_image_placeholder_description">Laptop image placeholder</string>
+    <string name="loading">Recolecting data…</string>
+</resources>

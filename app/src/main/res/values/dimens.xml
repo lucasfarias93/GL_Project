@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CardView util dimens -->
+    <dimen name="card_view_elevation">5dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_content_padding">8dp</dimen>
+    <dimen name="card_big_corner_radius">15dp</dimen>
+    <dimen name="card_big_layout_margin">20dp</dimen>
+    <dimen name="card_normal_layout_margin">10dp</dimen>
+
+    <!-- Text util dimens -->
+    <dimen name="big_title_size">28sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+
+    <!-- General Views dimens -->
+    <dimen name="image_normal_max_height">220dp</dimen>
+    <dimen name="image_land_max_height">300dp</dimen>
+    <dimen name="image_list_land_max_height">150dp</dimen>
+    <dimen name="image_land_max_width">150dp</dimen>
+    <dimen name="normal_layout_padding">10dp</dimen>
+    <dimen name="small_layout_padding">5dp</dimen>
+    <dimen name="big_layout_margin">15dp</dimen>
+</resources>
